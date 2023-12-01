@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+   background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  #contenedor{
+    background: rgb(63,149,251);
+background: radial-gradient(circle, rgba(63,149,251,1) 14%, rgba(64,53,244,1) 74%, rgba(64,40,243,1) 80%, rgba(65,7,240,1) 100%);
+    border-radius: 2px;
+    margin-top: 200px ;
+    margin-bottom: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 500px;
+    width: 50%;
+    top: 20px;
+  }
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+  #reinicio{
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #a9ba0c;
+      color: #27143d;
+      border: none;
+      border-radius: 3px;
+    
+  }
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+    margin-bottom: 10px;
+}
+   
+.input-area{
+    margin: 30px;
+}
+#grid{
+  text-align: center;
+  margin-top: 20px;
+}
+#respuesta{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: radial-gradient(circle, rgba(63,149,251,1) 14%, rgba(64,53,244,1) 74%, rgba(64,40,243,1) 80%, rgba(65,7,240,1) 100%);;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
